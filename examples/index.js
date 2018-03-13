@@ -39,13 +39,15 @@ function timeout(ms) {
     return process.exit(0);
   }
   try {
-    await main.activateContact(nconf.get('p1'));
+    let recipient = nconf.get('p1');
+    await main.activateContact(recipient);
     await main.textMessage('Test Message');
   } catch (e) {
     logging.error(e);
   }
   try {
-    await main.activateContact(nconf.get('p2'));
+    let recipient = nconf.get('p2');
+    await main.activateContact(recipient);
     await main.textMessage('Message');
   } catch (e) {
     logging.error(e);
