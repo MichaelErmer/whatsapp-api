@@ -1,6 +1,6 @@
 # whatsapp web api
 
-Invoking `main.setup()` will open the QR code on in a preview window, only tested on osx, the session is stored in `profile/`.
+Invoking `main.setup()` will open the QR code in a preview window, only tested on osx, the session is stored in `profile/`.
 
 ## example
 
