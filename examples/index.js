@@ -1,4 +1,4 @@
-const Main          = require('../lib/main.js'),
+const Main      = require('../lib/main.js'),
   nconf         = require('nconf'),
   Logging       = require('bunyan');
 

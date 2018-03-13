@@ -23,7 +23,6 @@ nconf.defaults({
     'name': 'whatsapp-api',
     'level': 'debug'
   },
-  // eslint-disable-next-line quotes,object-curly-spacing,key-spacing,comma-spacing
   puppeteer: {
     headless: true,
     userDataDir: './profile/',
