@@ -1,0 +1,7 @@
+*.sw[a-z]
+.DS_Store
+node_modules
+DEADJOE
+*~
+.idea/
+profile/*
